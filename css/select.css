@@ -1,0 +1,405 @@
+body{
+	background:#f4f4f4;
+}
+.sel-main{
+	color:#666;
+	font-size:12px;
+}
+.sel-header-form,.price-area-div{
+	width: 100%;
+	margin-top:20px;
+	border:1px solid #eee;
+	background:#fff;
+}
+.sel-header-form span,.price-area-div span{
+	display: inline-block;
+}
+.sel-form-ul>li{
+	height: 21px;
+	padding:10px 20px;
+	line-height: 21px;
+}
+.sel-form-ul>li:nth-child(-n+7){
+	border-bottom: 1px solid #eee;
+}
+.sel-form-header-li{
+	background:#fcfcfc;
+}
+.sel-icon{
+	background-image: url('../images/atom_sprite.png');	
+}
+.goods-num{
+	float: right;
+}
+.sel-form-ico1{
+	width: 7px;
+	height: 10px;
+	background-position: -30px -30px;
+}
+.sel-form-ul>li>a:hover{
+	color:#0092d8;
+}
+.sel-form-ul-1{
+	float: left;
+}
+.selected{
+	color:#0092d8;
+}
+.sel-ul-li .li-blue{
+	color:#0092d8;
+}
+.sel-ul-li li a:hover{
+	color:#f60;
+}
+
+.hidden-li{
+	display:none;
+}
+.sel-ul-li>span.sel-ul-span-con,span.sel-ul-span-con2{
+	color:#999;
+	float: left;
+	line-height:21px;
+	margin-right:58px;
+}
+span.sel-ul-span-con2{
+	margin-right:30px;
+}
+.sel-form-ul-1 li,.sel-form-ul-2 li{
+	float: left;
+	margin-right:60px;
+	cursor:pointer;
+}
+.kind:hover{
+	color:#f60;
+}
+.sel-ul-li2>span{
+	margin-right:34px;
+}
+ .sel-ul-li2 span.sel-ul-li-span{
+	margin-right:28px;
+} 
+.sel-form-ul-2 li a{
+	float: left;
+	margin-right:0px;
+}
+.ul-2-icon2{
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-right:15px;
+}
+.sel-form-ico2{
+	background-position:-242px -101px;
+}
+.sel-form-ico3{
+	background-position:-262px -101px;
+}
+.sel-form-ul .last-li{
+	text-align: center;
+	cursor:pointer;
+}
+.last-li .sel-more-txt{
+	margin-right:10px;
+}
+.last-li .selected-more{
+	width: 10px;
+	height: 9px;
+	background-position:0 -41px;
+}
+.price-area-div{
+	padding:10px 20px;
+	box-sizing:border-box;
+	position:relative;
+}
+ .price-area-div::after{
+	display:block;
+	content:'';
+	clear:both;
+} 
+.price-ul{ 
+	height: 21px;
+	float:left;
+}
+.price-ul li{
+	line-height:21px;
+	margin-right:50px;
+	float: left;
+}
+.price-ul li span{
+	cursor:pointer;
+}
+.price-ul .price-span-icon{
+	width:8px;
+	height: 8px;
+	background-position:0 -43px;
+}
+.price-ul .price-order:hover .price-hid-box{
+	display:block;
+	color:red;
+}
+.price-right-ul {
+	float:right;
+}
+.price-right-ul li{
+	float: left;
+	margin-left: 20px;
+	cursor:pointer;
+}
+.price-hid-box{
+	position:absolute;
+	border:1px solid #eee;
+	background:#fff;
+	padding:30px 20px 0px;
+	top:-1px;
+	left:86px;
+	cursor:pointer;
+	display:none;
+}
+.price-hid-box ul li{
+	margin-bottom:25px;
+}
+.products-list{
+	margin-top:20px;
+	overflow:hidden;
+}
+.products-list-ul li{
+	float:left;
+	width: 238px;
+	height: 468px;
+	text-align: left;
+	border:1px solid #eee;
+	padding:0 24px 10px;
+	background:#fff;
+	position:relative;
+	margin:0 16px 16px 0;
+}
+.products-list-ul li:hover{
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.05);
+}
+.products-list-ul li:nth-child(4n){
+	margin:0;
+}
+.products-list-ul .pro-list-icon{	
+	display:inline-block;
+	position:absolute;
+	top:0;
+	right:84px;
+}
+.pro-list-icon2{
+	display:inline-block;
+	position:absolute;
+	text-align:center;
+	color:#fff;
+	width: 84px;
+	height: 29px;
+	line-height:29px;
+	right:0;
+	background: #ff784b;
+}
+.products-list-ul .pro-list-img img{
+	margin:40px 0;
+}
+.products-list-ul .products-list-p{
+	margin-bottom:10px;
+}
+.products-list-ul span.price-A{
+	font-size:18px;
+	color:#f60;
+}
+span.assess{
+	display:inline-block;
+}
+.products-list-ul li a{
+	font-size:14px;
+	color:#333;
+}
+.products-list-ul li a:hover{
+	color:#0093d5;
+}
+.products-list-p2{
+	margin:5px 0;
+}
+.self-buy{
+	margin-bottom:20px;
+}
+.products-list-icon,.products-list-icon2{
+	font-size:12px;
+	display:inline-block;
+	color:#ff784b;
+	border:1px solid #ff784b;
+	padding:1px 5px;
+	border-radius:2px;
+}
+.products-list-icon2{
+	color:#fff;
+	background:#ff784b;
+}
+
+.shop-car{
+	float: left;
+	cursor:pointer;
+}
+.pro-icon{
+	display:inline-block;
+	background-image:url('../images/item_compare.png');
+	vertical-align:bottom;
+}
+.shop-car-icon{
+	width:20px;
+	height: 15px;
+	background-position:-36px -33px;
+}
+.shop-car:hover .shop-car-icon{
+	background-position:-9px -33px;
+}
+.pro-compare{
+	float:right
+}
+.compare-icon{
+	width: 17px;
+	height: 17px;
+	background-position:-12px -9px;
+}
+.page-box{
+	width: 150px;
+	height: 50px;
+	margin:50px auto 0;
+	background:pink;
+}
+.page{
+	float: left;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    background:#fff;
+}
+.page-num{
+	color:#fff;
+	font-size:14px;
+	background:#0093d5;
+}
+.footer{
+	margin-top:50px;
+	background:#fff;
+}
+/* 登录模块 */
+
+.login-model{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	background-color: rgba(0,0,0,0.4);
+	display:none;
+	/* z-index: 2; */
+}
+.acct-pd-log{
+	background-color:#fff;
+	width: 380px;
+	position:fixed;
+	top:50%;
+	margin-top:-200px;
+	left:50%;
+	margin-left:-190px;
+	box-shadow:0 0 4px 0 #d6d6d6;
+	border:1px solid #d6d6d6;
+}
+.wr{
+	background-image:url('../images/login.png');
+	background-position:-21px -118px;
+	width: 16px;
+	height: 16px;
+	float:right;
+	margin:10px 10px;
+	cursor:pointer;
+}
+.sel-form-box{
+	margin-bottom:10px;
+	position:relative;
+}
+.sel-form-box input{
+	width: 288px;
+	height:38px;
+	padding:0 10px;
+	outline: none;
+	font-size:12px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	margin:5px 0;
+}
+.sel-form-box .log-btn{
+	width: 308px;
+	border:none;
+	margin-top:20px;
+	color: #fff;
+	background-color:#0092d8;
+}
+.sel-form-box .log-btn:hover{
+	background-color:#0078cf;
+}
+.boxbox{
+	padding:30px 40px 30px;
+}
+.boxbox h2{
+	margin:10px 0 30px 0;
+}
+.d-z{
+	overflow:hidden;
+	padding-bottom:30px;
+	border-bottom:1px solid #eee;
+	margin-bottom:20px;
+}
+.L-a{
+	float:left;
+}
+.R-a{
+	float:right;
+}
+.d-z a:hover{
+	color:#f30;
+}
+.choo-log ul {
+	color:#999;
+	font-size:12px;
+	overflow:hidden;
+}
+.choo-log ul li{
+	width: 80px;
+	text-align:center;
+	float:left;
+	cursor:pointer;
+}
+.choo-log ul li:nth-child(2){
+	margin:0  30px;
+}
+.mo-icon{
+	display:inline-block;
+	background-image:url('../images/login.png');
+	width: 50px;
+	height: 50px;
+}
+.qq-span{
+	background-position:0 0;
+}
+.qq-span:hover{
+	background-position:0 -58px;
+}
+
+.wchat-span{
+	background-position:-57px 0;
+}
+.wchat-span:hover{
+	background-position:-57px -58px;
+}
+
+.m-span{
+	background-position:-113px 0;
+}
+.m-span:hover{
+	background-position:-113px -58px;
+}
+.form-pd-a{
+	top:8px;
+}

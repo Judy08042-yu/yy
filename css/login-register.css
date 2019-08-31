@@ -1,0 +1,159 @@
+.log-reg{
+	height: 700px;
+	position: relative;
+}
+.log-reg img{
+	margin:80px 0px;
+	width: 485px;
+}
+.log-reg-main{
+	width:900px;
+	margin:0 auto;
+	position:relative;
+
+}
+.log-reg-box{
+	position:absolute;
+	top:80px;
+	right:0px;
+	border:1px solid #d6d6d6;
+	box-shadow: 0 0 4px 0px #d6d6d6;
+	border-radius:2px;
+}
+.log-box{
+	width: 300px;
+	padding: 30px 40px 30px;
+}
+.log-box h2,.reg-box h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.qq-wchat{
+	margin:10px 0 20px;
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;
+}
+.qq-wchat span{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url('../images/login.png')
+}
+.log-qq-icon{
+	background-position:0px 0px;
+}
+.log-qq-icon:hover{
+	background-position:0px -58px;
+}
+.log-wchat-icon{
+	background-position:-57px 0px;
+}
+.log-wchat-icon:hover{
+	background-position:-57px -58px;
+}
+.form-box{
+	margin-bottom:10px;
+	position:relative;
+}
+.log-box input,.reg-box input{
+	width: 288px;
+	height:38px;
+	padding:0 10px;
+	outline: none;
+	font-size:12px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	margin:5px 0;
+}
+.log-box .log-btn,.reg-box .log-btn{
+	width: 308px;
+	border:none;
+	margin-top:20px;
+	color: #fff;
+	background-color:#0092d8;
+}
+.log-btn:hover{
+	background-color:#0078cf;
+}
+ 
+.log-reg-bot a:hover{
+	color:#f30;
+}
+.line-span{
+	display:inline-block;
+	height: 12px;
+	position:relative;
+	top:2px;
+	width:1px;
+	background-color:#ccc;
+	margin:0 10px;
+}
+.find-pd{
+	float:right;
+}
+.message-log{
+	display:none;
+}
+.form-pd-a{
+	position: absolute;
+    line-height: 40px;
+    top: 5px;
+    border-left: 1px solid #999;
+    right: 0;
+    padding: 0 5px 0 16px;
+}
+/* 注册 */
+.reg-box{
+	position:absolute;
+	right:0px;
+	/* height:370px; */
+	width: 300px;
+	padding: 30px 40px 30px;
+	display:none;
+	border:1px solid #d6d6d6;
+	box-shadow: 0 0 4px 0px #d6d6d6;
+	border-radius:2px;
+	background: #ffffff;
+}
+.message-reg{
+	font-size:12px;
+	color:#999;
+}
+.agreement{
+	margin-top:10px;
+}
+.agrement-icon{
+	cursor: pointer;
+	display:inline-block;
+	width: 15px;
+	height: 15px;
+	position:relative;
+	top:3px;
+	border-radius:4px;
+	background-position:-262px -101px;
+	background-image: url('../images/atom_sprite.png');
+}
+.agreement a,.logined a{
+	color:#0092d8;
+}
+.logined{
+	margin-top:10px;
+	float:right;
+}
+.logined a:hover{
+	color:#f30;
+}
+.footer-copy{
+	font-size:12px;
+	color:#999;
+	padding-top:15px;
+	border-top: 1px solid #ddd;
+	margin:0 auto 30px;
+	text-align: center;
+}
+.warn-phone1,.warn-pd1,.warn-MP,.warn-phone2,.warn-pd2,.warn-pd3,.disagreed{
+	font-size:12px;
+	color:#f00;
+	margin:10px 0;
+	display:none;
+}

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>类型选择页面</title>
+	<link rel="stylesheet" href="../css/cssreset.css">
+	<link rel="stylesheet" href="../css/same.css">
+	<link rel="stylesheet" href="../css/login-register.css">
+	<link rel="stylesheet" href="../css/select.css">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<script src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/same.js"></script>
+	<script src="../js/select.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="header-ban">
+			<a href="#" title="美的" class="meidi-loge"></a>
+			<div class="header-nav">
+				<ul class="header-nav-L">
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="#">商家注入</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">全屋家电套购</a></li>
+					<li><a href="#">会员福利社</a></li>
+					<li><a href="#">美居</a></li>
+				</ul>	
+			</div>
+			<div class="header-nav-R">
+				<div class="header-nav-ul-R">
+					<div class="header-box-R box-R1 box-hover">
+						<a href="../html/login-register.html"></a>
+						<span>登录</span>
+					</div>
+					<div class="header-box-R box-R2 box-hover"><a href="#"></a></div>
+					<div class="header-box-R box-R3 box-hover"><a href="#"></a></div>
+					<div class="header-box-R box-R4">
+						<span class="header-box-icon1"></span>						
+					</div>
+					<div class="header-box-form">
+						<span class="form-icon"></span>				
+						<form action="#">
+							<input type="text" placeholder="清凉一整夏，酷暑不上头" class="inputbox">
+						</form>
+					</div>
+				</div>
+			</div>	
+		</div>	
+		<div class="phone-box">
+			<img src="../images/header_qr_all.png" alt="">
+		</div>
+		<div class="shopping-car">
+			<p>立即<a href="../html/login-register.html">登录</a>,查看购商品</p>
+		</div>
+		<div class="login">
+			<ul class="login-ul">	
+				<li><a href="#"><span class="login-icon1 longin-icon"></span>我的订单</a></li>
+				<li><a href="#"><span class="login-icon2 longin-icon"></span>我的优惠券</a></li>
+				<li><a href="#"><span class="login-icon3 longin-icon"></span>会员福利社</a></li>
+				<li><a href="#"><span class="login-icon4 longin-icon"></span>我的权益</a></li>
+				<li><a href="#"><span class="login-icon5 longin-icon"></span>我的美的</a></li>
+				<li><a href="#"><span class="login-icon6 longin-icon"></span>账户设置</a></li>
+			</ul>
+		</div>	
+	</div>
+	<div class="message">
+		<p>通知：1.美的商城为美的集团官方渠道，请勿相信任何刷单信息！2.新疆区域由于交通管制无法正常发货，恢复时间待定。</p>
+	</div>
+	<div class="sel-main">
+		<div class="con sel-products">
+			<div class="sel-header-form">
+				<ul class="sel-form-ul">
+					<li class="sel-form-header-li">
+						<a href="../index.html">首页</a>
+						<span class="sel-form-ico1 sel-icon"></span>
+						<a href="#">空调</a>
+						<span class="sel-form-ico1 sel-icon"></span>
+						<a href="#">壁挂式空调</a>
+						<span class="goods-num">共 <span class="products-num"></span> 件商品</span>
+					</li>
+					<li class="sel-ul-li">
+						<span class="sel-ul-span-con">分类：</span>
+						<ul class="sel-form-ul-1">
+							<li><a href="#" class="li-blue">空调</a></li>
+							<li><a href="#">冰箱</a></li>
+							<li><a href="#">洗衣机</a></li>
+							<li><a href="#">厨房小电器</a></li>
+							<li><a href="#">厨房大电器</a></li>
+							<li><a href="#">生活家电</a></li>
+							<li><a href="#">热水/净水</a></li>
+							<li><a href="#">配件及周边</a></li>
+						</ul>
+					</li>
+					<li class="sel-ul-li">
+						<span class="sel-ul-span-con">机型：</span>
+						<ul class="sel-form-ul-1">
+							<li><a href="#">全部空调</a></li>
+							<li><a href="#" class="li-blue">壁挂式空调</a></li>
+							<li><a href="#">立柜式空调</a></li>
+							<li><a href="#">中央空调</a></li>
+							<li><a href="#">移动空调</a></li>
+							<li><a href="#">天花机</a></li>
+						</ul>
+					</li>	
+					<li class="sel-ul-li sel-ul-li2">
+						<span class="sel-ul-span-con2">空调匹数：</span>
+						<ul class="sel-form-ul-2">
+							<li  class="all-selected selected">
+								<span class="sel-form-ico2 sel-icon ul-2-icon2"></span>
+								全部
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								1匹
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								1.5匹
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								2匹
+							</li>
+						</ul>
+					</li>
+					<li class="sel-ul-li sel-ul-li2 hidden-li">
+						<span class="sel-ul-li-span sel-ul-span-con2">定速/变频：</span>
+						<ul class="sel-form-ul-2">
+							<li class="all-selected selected">
+								<span class="sel-form-ico2 sel-icon ul-2-icon2"></span>
+								全部
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								定速
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								变频
+							</li>
+						</ul>
+					</li>
+					<li class="sel-ul-li sel-ul-li2 hidden-li">
+						<span class="sel-ul-span-con2">冷暖类型：</span>
+						<ul class="sel-form-ul-2">
+							<li class="all-selected selected">
+								<span class="sel-form-ico2 sel-icon ul-2-icon2"></span>
+								全部
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								冷暖型
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								单冷型
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								冷暖店铺
+							</li>
+						</ul>
+					</li>
+					<li class="sel-ul-li sel-ul-li2 hidden-li">
+						<span class="sel-ul-span-con2">能效等级：</span>
+						<ul class="sel-form-ul-2">
+							<li class="all-selected selected">
+								<span class="sel-form-ico2 sel-icon ul-2-icon2"></span>
+								全部
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								一级能效
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								二级能效
+							</li>
+							<li class="kind">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+								三级能效
+							</li>
+						</ul>
+					</li>
+					<li class="sel-ul-li sel-ul-li2 last-li">
+						<span class="sel-more-txt">更多选项</span><span class="selected-more sel-icon"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="price-row">
+				<div class="price-area-div">
+					<ul class="price-ul">
+						<li><span class="selected kind">推荐</span></li>
+						<li class="price-order">
+							<span>价格</span>
+							<span class="sel-icon price-span-icon"></span>
+						</li>
+						<li>
+							<span class="kind">广东省 广州市 天河区</span>
+							<span class="sel-icon price-span-icon"></span>
+						</li>
+					</ul>
+					<ul class="price-right-ul">
+						<li class="kind">
+						<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>					
+						仅看有货</li>
+						<li class="kind">
+						<span class="sel-form-ico3 sel-icon ul-2-icon2"></span>
+						仅看pro精选</li>
+					</ul>
+					<div class="price-hid-box">
+						<ul>
+							<li class="kind">价格从低到高</li>
+							<li class="kind">价格从高到低</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="products-list">
+				<ul class="products-list-ul">
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>	
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>	
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>	
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>	
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+					<li>
+						<span class="pro-list-icon"><img src="../images/pro-xia.png" alt="" width="84px"></span>
+						<span class="pro-list-icon2">限时特惠</span>
+						<a href="detail.html" class="pro-list-img"><img src="../images/kfr-35G.png" alt="" width="230px"></a>
+						<p class="products-list-p">
+							<span class="price-A">&yen;2399.00</span>
+							<span>&yen;2299.00</span>
+							<span><img src="../images/pro-logo.png" alt="" width="28px"></span>
+							<span class="assess">评价<span>1310</span></span>			
+						</p>
+						<a href="detail.html">大1.5匹 变频空调挂机 冷暖壁挂式 智能云控 KFR-35GW/WDBN8A3@</a>
+						<p class="products-list-p2">智能wifi;ECO节能;百档风速;智能睡眠</p>
+						<div class="self-buy">
+							<span class="products-list-icon">自营</span>
+							<span class="products-list-icon2">用券减30</span>
+						</div>
+						<div class="shop-car">
+							<span class="shop-car-icon pro-icon"></span>
+							<span>购物车</span>
+						</div>
+						<div class="pro-compare">
+							<span class="compare-icon pro-icon"></span>
+							<span>对比</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="page-bottom">
+				<div class="page-box">
+					<span class="page">&lt;</span>	
+					<span class="page page-num">1</span>	
+					<span class="page">&gt;</span>	
+				</div>
+			</div>
+		</div>
+		<div class="bottom-side">
+			<ul class="bottom-side-ul">
+				<li>
+					<a href="#" class="ani-img">
+						<span class="bottom-side-icon bottom-icon1"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#"><span class="bottom-side-icon bottom-icon2"></span></a>
+				</li>
+				<li>
+					<a href="#"><span class="bottom-side-icon bottom-icon3"></span></a>
+				</li>
+				<li>
+					<a href="#"><span class="bottom-side-icon bottom-icon4"></span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="bottom-img"><img src="../images/weixin_code.png" alt=""></div>
+	</div>
+		<div class="footer">
+			<div class="con footer-box">
+				<ul class="footer-ul">
+					<li><a href="#">商城入驻</a></li>
+					<li><a href="#">服务条款</a></li>
+					<li><a href="#">隐私政策</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">服务支持</a></li>
+					<li><a href="#">东芝商城</a></li>
+					<li><a href="#">小天鹅商城</a></li>
+				</ul>
+				<p>Copyright&copy;1968-2019 广东美的网络科技有限公司 
+					<a href="#">粤ICP备17058257号</a>
+					<span><img src="../images/gongan.jpg" alt=""></span>
+					<a href="#">粤公网安 44060602000546号</a>
+					<span><img src="../images/police.png" alt="" width="20px"></span>
+					<a href="#">粤工商备P06811806002512</a>
+				</p>
+			</div>			
+		</div>
+	</div>
+	<div class="login-model">
+		<div class="acct-pd-log acct1">
+			<a class="wr"></a>
+			<div class="boxbox">
+				<h2>账号密码登录</h2>
+				<div class="sel-form-box">
+					<form action="">
+						<input type="text" placeholder="手机号" class="phone-input">
+						<input type="password" placeholder="密码" class="pd-input">
+						<input type="button" value="登录" class="log-btn">
+					</form>
+				</div>
+				<div class="d-z">
+					<a href="#" class="L-a">注册</a>
+					<a href="#" class="R-a">找回密码</a>				
+				</div>
+				<div class="choo-log">
+					<ul>
+						<li>
+							<span class="qq-span mo-icon"></span>
+							<p>QQ登录</p>
+						</li>
+						<li>
+							<span class="wchat-span mo-icon"></span>
+							<p>微信登录</p>
+						</li>
+						<li>
+							<span class="m-span mo-icon"></span>
+							<p>短信验证登录</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="acct-pd-log">
+			<div class="reg-box">
+				<a class="wr"></a>
+				<h2>使用手机号注册</h2>
+				<div class="message-reg">
+					<div class="form-box">
+						<input type="text" placeholder="手机号" class="phone-input">
+						<a href="#" class="form-pd-a">获取验证码</a>
+						<input type="text" placeholder="短信验证码" class="pd-input">
+						<input type="password" placeholder="密码" class="pd-input">
+						<input type="password" placeholder="确认密码" class="pd-input">	
+					</div>
+					<span>密码长度必须在8位以上，含大小写字母、数字、符号至少三种</span>
+					<p class="agreement"><span class="agrement-icon agreed"></span>
+					<span >同意</span><a href="#">《美的官方商城用户注册协议》</a></p>
+					<input type="button" value="注册" class="log-btn">
+					<span class="logined"><a href="#">已有账号? 请登录</a></span>
+				</div>	
+			</div>	
+		</div>				
+	</div>
+</body>
+</html>

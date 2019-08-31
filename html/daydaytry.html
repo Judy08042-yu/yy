@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../js/jquery-1.11.1.js"></script>
+	<style>
+*{margin:0;padding:0;}
+body{}
+a{text-decoration:none;}
+div{	
+height:45px;width:100%;background-color:red;}
+li{list-style:none;}
+.selected{
+	/* background-image:url('../images/atom_sprite.png'); */
+	/* background-position: -242px -101px; */
+}
+
+/* .selected1{
+	background-position: -242px -101px;
+} */
+
+.inputbox{position:absolute;right:230px;top:0;width:44px;height:44px;padding-left:40px;border:none;display:none;}
+.box1{position:absolute;right:230px;top:0;width:44px;height:44px;background-color:pink;}
+.box1::after{position:absolute;top:0;content:'';width:0;height:0;border-width:8px 0px 8px 8px;border-color:transparent transparent transparent #fff;font-size:0;line-height:0px;overflow:hidden;border-style:dashed dashed dashed solid;}
+.sel-header-form{width:100%;height:100px;margin-top:20px;background-color:pink;border:1px solid #eee;}
+.sel-main .sel-header-form span{display:inline-block;}
+.sel-form-ul>li{height:21px;padding:10px 20px;background-color:skyblue;}
+.sel-icon{background-image:url('../images/atom_sprite.png');}
+.sel-form-ico1{width:7px;height:10px;background-position:-30px -30px;}
+.sel-form-ul>li>a:hover{color:#0092d8;}
+.sel-form-ul-1{float:left;}
+.sel-ul-li>span{font-size:12px;color:#999;float:left;line-height:21px;margin-right:58px;}
+.sel-form-ul-1 li,
+.sel-form-ul-2 li{float:left;margin-right:60px;}
+.sel-ul-li2>span{float:left;margin-right:34px;}
+.sel-form-ul-2 li a{float:left;margin-right:0px;}
+.ul-2-icon2{float:left;width:15px;height:15px;margin-right:15px;}
+.sel-form-ico2{background-position:-242px -101px;}
+.sel-form-ico3{background-position:-262px -101px;}
+	</style>
+	<script>
+		$(function(){
+				
+			$(".all-selected").click(function(){
+				if($(this).children('span').hasClass('sel-form-ico3')){
+					$(this).children('span').removeClass('sel-form-ico3')					
+				}
+				
+				$('.sel-form-ul-2 li').each(function(){
+					if($(this).children().hasClass('selected')){
+						
+					}
+					else{
+						$(this).children('span').addClass('selected')
+						$(this).children('span').css('background-position','');					
+					}
+				})
+				
+			})			
+			$('.all1-selected').click(function(){
+				
+				var a=$('.all1-selected').length;//后面的个数
+				// console.log("chus"+a)
+				// console.log($(this).children().hasClass('selected'));
+				if($(this).children().hasClass('selected')){
+					$(this).children('span').removeClass('selected')
+					$(this).children('span').css('background-position','-242px -101px');
+					$(".all-selected").children('span').addClass('sel-form-ico3');				
+				}
+				else{
+					$(this).children('span').addClass('selected')
+					$(this).children('span').css('background-position','');
+				}
+				
+				$('.all1-selected').each(function(){
+					if($(this).children().hasClass('selected')){
+							a--;
+					}
+				})
+				console.log(a)
+				if(a==0){
+					$(".all-selected").children('span').removeClass('sel-form-ico3');
+				}
+			})
+		/*	$('.sel-form-ul-2 .all-selected').click(function(){
+
+			})*/
+		})		
+	</script>
+</head>
+<body>
+	<div>
+		<div class="box1"></div>
+		<form action="">
+			<input type="text" placeholder="清凉一整夏，酷暑不上头" class="inputbox">
+		</form>	
+		<div class="sel-main">
+		<div class="con">
+			<div class="sel-header-form">
+				<ul class="sel-form-ul">
+					<li class="sel-ul-li sel-ul-li2">
+						<span>定速/变频：</span>
+						<ul class="sel-form-ul-2">
+							<li class="all-selected">
+								<span class="sel-icon ul-2-icon2 sel-form-ico2"></span>
+								全部
+							</li>
+							<li class="all1-selected">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2 selected"></span>
+								定速
+							</li>
+							<li class="all1-selected">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2 selected"></span>
+								<a href="#">变频</a>
+							</li>
+							
+							<li class="all1-selected">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2 selected"></span>
+								<a href="#">变频</a>
+							</li>	
+							<li class="all1-selected">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2 selected"></span>
+								<a href="#">变频</a>
+							</li>
+							<li class="all1-selected">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2 selected"></span>
+								<a href="#">变频</a>
+							</li>
+							<li class="all1-selected">
+								<span class="sel-form-ico3 sel-icon ul-2-icon2 selected"></span>
+								<a href="#">变频</a>
+							</li>	
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
