@@ -1,4 +1,6 @@
 $(function(){
+
+// 更多选项
 	$('.last-li').click(function(){
 		var more=$('.sel-more-txt').html()
 		console.log(more)
@@ -46,6 +48,27 @@ $(function(){
 			$(this).addClass('selected').siblings('.kind').removeClass('selected')
 			$(this).children('span').css('background-position','-242px -101px').parent().siblings('.kind').children('span').css('background-position','-262px -101px');
 		}
+	})
+
+// 仅看有货
+	$('.price-right-ul .kind').click(function(){
+		if($(this).hasClass('selecte')){
+			$(this).css('color','#0092d8');
+			$(this).removeClass('selecte')
+			$(this).children('span').css('background-position','-242px -101px');
+		}
+		else{
+			$(this).addClass('selecte')
+			$(this).css('color','');
+			$(this).children('span').css('background-position','-262px -101px');
+		}
+	})
+
+// 价格高低
+	$('.price-order').hover(function(){
+		$('.price-hid-box').show();
+	},function(){
+		$('.price-hid-box').hide();
 	})
 
 // 登录模块

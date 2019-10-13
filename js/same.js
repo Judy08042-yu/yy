@@ -40,8 +40,8 @@ $(function(){
 		$('.header-box-form').show();
 		$('.inputbox').animate({width:'210px'},500);
 	})
-	$('.inputbox').blur(function(event) {
-		console.log(1)		
+	$('.inputbox').blur(function() {
+		// console.log(1)		
 		$('.header-box-form').hide();
 		$('.inputbox').animate({width:'44px'},500);		
 	});

@@ -64,19 +64,14 @@ $(function(){
     })
 
 // 相关内容
-    // console.log($('.box-content>div'))
-    // console.log($('.product-nav-ul li'))
     $('.product-nav-ul li').click(function(){
         $(this).addClass('choosed').siblings().removeClass('choosed');
-        // console.log($(this).html());
         var index=$(this).index();
-        // console.log(index)
         $('.box-content>div').eq(index).show().siblings().hide();
     })
 
     $(window).scroll(function(){
         var h=$(window).scrollTop()
-        console.log(h)
         if(h>1365){
             $('.hid-pro').show();
         }
@@ -84,5 +79,56 @@ $(function(){
             $('.hid-pro').hide();
         }
     })
+
+// 倒计时
+    function endTime(){
+        $('.endingTime').each(function(){
+
+            // 获取到结束时间title
+            var end=$(this).prop("title");
+            var gTime=new Date();
+            // 获取到当前时间
+            var nowTime=gTime.getTime();
+            // 获取结束时间
+            var endTime=new Date(end).getTime();
+            console.log(endTime)
+            // 获得结束时间距离现在的秒数
+            var time_over=endTime-nowTime;
+
+            var timer;
+            if(time_over>=0){
+                // 获得倒计时的天数
+                var over_day=Math.floor(time_over/86400000)
+                time_over-=over_day*86400000;
+
+                var over_hour=Math.floor(time_over/3600000);
+                time_over-=over_hour*3600000;
+
+                var over_minute=Math.floor(time_over/60000);
+                time_over-=over_minute*60000;
+
+                var over_second=Math.floor(time_over/1000);
+
+                if(over_day<10){
+                    over_day='0'+over_day;
+                }
+                if(over_hour<10){
+                    over_hour='0'+over_hour;
+                }
+                if(over_minute<10){
+                    over_minute='0'+over_minute;
+                }
+                if(over_second<10){
+                    over_second='0'+over_second;
+                }
+                 $(this).html(over_day + "天" + over_hour + "时" + over_minute + "分" + over_second + "秒");
+            }else{
+                 clearInterval(timer);
+                 $(this).html('00天00时00分00秒');
+            }
+        })
+        timer=setTimeout(endTime,1000);
+    }
+    endTime();
 
 })

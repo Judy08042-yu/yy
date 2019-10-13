@@ -16,7 +16,6 @@ $(function(){
 			$('.main-side-box').eq(a).addClass('box-static');
 		});
 	})
-
 // 轮播图
 	$('.main-lunbo').hover(function(){
 		$('.main-lunbo>span').css('display','block');
@@ -74,7 +73,6 @@ $(function(){
 		}
 		$('.main-lunbo-ul').animate({'margin-left':-1200*num+'px'},500)
 		$('.main-dot ol li').eq(num).addClass('dot-current-color').siblings('').removeClass('dot-current-color');
-
 	})
 
 	$('.main-icon-R').click(function(){
@@ -102,10 +100,9 @@ $(function(){
 		timer=setInterval(lunbo,1000);
 	})
 
-
-
 // 返回顶部
 	$('.bottom-side-ul li').eq(3).click(function(){
 		$('html,body').animate({'scrollTop':0}, 500)
 	})
+
 })
